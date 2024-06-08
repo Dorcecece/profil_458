@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showContent('about')">About Me</a></li>
+                <li><a href="#" onclick="showContent('portfolio')">Portfolio</a></li>
+                <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="profile">
+    <img src="foto.jpg" alt="profile Photo" height="500" width="550">
+    <h1>Name</h1>
+    <p>Name : Dorce Legung </p>
+    <p>Nim  : H233600458 </p>
+        </div>
+    </div>
+    <main>
+        <section id="about" class="content">
+            <h1>About Me</h1>
+            <p>Hello! I am a web developer with a passion for creating beautiful and functional websites. I have experience in HTML, CSS, and JavaScript.</p>
+        </section>
+        <section id="portfolio" class="content">
+            <h1>Portfolio</h1>
+            <p>Here are some of my recent works:</p>
+            <ul>
+                <li>Project 1: <a href="#">Link to project</a></li>
+                <li>Project 2: <a href="#">Link to project</a></li>
+                <li>Project 3: <a href="#">Link to project</a></li>
+            </ul>
+        </section>
+        <section id="contact" class="content">
+            <h1>Contact</h1>
+            <p>You can reach me at:</p>
+            <ul>
+                <li>Email: <a href="mailto:ubungdorcelegung@gmail.com">ubungdorcelegung@gmail.com</a></li>
+                <li>Phone: 082138933451</li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
